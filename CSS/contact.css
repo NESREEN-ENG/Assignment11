@@ -1,0 +1,29 @@
+body{
+    background-image: linear-gradient(aliceblue,#013a6395) !important;
+    color:#013a63fe !important;
+}
+::placeholder{
+    color:#aaa !important;
+}
+
+.path{
+    background-color:aliceblue !important;
+  
+}
+.path li,
+.path a{
+    color:#013a63fe !important;
+    transition:.5s;
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+}
+.path a:hover{
+ text-decoration: underline !important;
+}
+textarea{
+   height: 100px;
+    resize: vertical;
+    outline: none;
+}

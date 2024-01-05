@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <!--Favicon -->
+    <link rel="shortcut icon" href="images/cloudy.png" type="image/x-icon">
+
+    <!-- Font Awesome File -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+
+    <!-- CSS Main File-->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg text-body navbar-dark ">
+        <div class="container py-3">
+            
+            <a href="index.html" class="navbar-brand d-flex gap-3 justify-content-center align-items-center h-100">
+                <div class="logo-image">
+                    <img src="images/logo@2x.png" alt="website logo" class="w-100 h-100">
+                </div>
+
+                <div class="text text-white d-flex flex-column gap-0 pt-3">
+                    <h1 class="fs-6 text-white mb-0">Weather</h1>
+                    <p class="">tagline goes here</p>
+                </div>
+            </a>
+
+            <button class="navbar-toggler shadow-none text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse mt-sm-2 mt-lg-0" id="navbar-links">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+                    <li class="nav-item text-center">
+                        <a class="nav-link text-white fs-6 px-4 py-1 rounded-pill active-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item text-center">
+                        <a class="nav-link text-white fs-6 px-4 py-1 rounded-pill" href="#">Live Cameras</a>
+                    </li>
+
+                    <li class="nav-item text-center">
+                        <a class="nav-link text-white fs-6 px-4 py-1 rounded-pill" href="#">Photos</a>
+                    </li>
+
+                    <li class="nav-item text-center">
+                        <a class="nav-link text-white fs-6 px-4 py-1 rounded-pill" href="HTML/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="content py-5">
+         <div class="container d-flex flex-column gap-5">
+            <div class="row px-md-5">
+                <form>
+                    <div class="form-group position-relative ">
+                        <i class="fa-solid fa-magnifying-glass position-absolute top-50 translate-middle-y icon"></i>
+                        <input type="text" class="form-control rounded-pill text-white" placeholder="Search for your location..." id="search-input">
+                    </div>
+                </form>
+            </div>
+
+            <div class="row  px-md-5 m-0 py-3" >
+                <div class="content d-lg-flex rounded-3 p-0 overflow-hidden " id="content">
+
+                </div>
+            </div>
+         </div>
+    </section>
+
+    <footer class="py-4">
+        <div class="container d-flex flex-wrap gap-5 align-items-center justify-content-between">
+         <form class="w-50">
+            <div class="form-group position-relative ">
+                <input type="text" placeholder="Enter Your Email To Subscribe" class="form-control rounded-pill subscribe ps-3">
+                <button class="btn btn-info position-absolute top-50 end-0 translate-middle-y rounded-pill text-white">Subscribe</button>
+            </div>
+         </form>
+         
+         <div class="social w-25 pt-3 ">
+            <ul class=" list-unstyled d-flex gap-5 justify-content-center ">
+                <li class="d-flex justify-content-center align-items-center rounded-circle "><a href="#" class="link fs-4 "><i class="fa-brands fa-facebook-f text-info"></i></a></li>
+                <li class="d-flex justify-content-center align-items-center rounded-circle "><a href="#" class="link fs-4 rounded-circle"><i class="fa-brands fa-linkedin-in text-info"></i></a></li>
+                <li class="d-flex justify-content-center align-items-center rounded-circle "><a href="#" class="link fs-4 rounded-circle"><i class="fa-brands fa-google text-info"></i></a></li>
+                
+            </ul>
+         </div>
+         <div class="text text-center text-white w-100">
+            Copyright 2024 Implemented By Ebram-Barsoum. All rights reserved
+         </div>
+        </div>
+    </footer>
+
+    <!--Bootstrap Bundle File-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Main Js File -->
+    <script src="js/main.js"></script>
+</body>
+</html>

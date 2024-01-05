@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+
+    <!--Favicon -->
+    <link rel="shortcut icon" href="../images/cloudy.png" type="image/x-icon">
+
+    <!-- Font Awesome File -->
+    <link rel="stylesheet" href="../CSS/all.min.css">
+
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+
+    <!-- CSS Main Files-->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
+    
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg text-body navbar-dark ">
+        <div class="container py-3">
+            
+            <a href="../index.html" class="navbar-brand d-flex gap-3 justify-content-center align-items-center h-100">
+                <div class="logo-image">
+                    <img src="../images/logo@2x.png" alt="website logo" class="w-100 h-100">
+                </div>
+
+                <div class="text text-white d-flex flex-column gap-0 pt-3">
+                    <h1 class="fs-6 text-white mb-0">Weather</h1>
+                    <p class="">tagline goes here</p>
+                </div>
+            </a>
+
+            <button class="navbar-toggler shadow-none text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse mt-sm-2 mt-lg-0" id="navbar-links">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+                    <li class="nav-item text-center">
+                        <a class="nav-link text-white fs-6 px-4 py-1 rounded-pill" href="../index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item text-center">
+                        <a class="nav-link text-white fs-6 px-4 py-1 rounded-pill" href="#">Live Cameras</a>
+                    </li>
+
+                    <li class="nav-item text-center">
+                        <a class="nav-link text-white fs-6 px-4 py-1 rounded-pill" href="#">Photos</a>
+                    </li>
+
+                    <li class="nav-item text-center">
+                        <a class="nav-link text-white fs-6 px-4 py-1 rounded-pill active-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="content py-5">
+         <div class="container d-flex flex-column gap-5 px-md-5">
+            <div class="row p-2 rounded-pill m-0  path ">
+                <nav style="--bs-breadcrumb-divider: ;" aria-label="breadcrumb" class=" d-flex align-items-center m-0 ">
+                    <ol class="breadcrumb m-0 ">
+                    
+                    </ol>
+                  </nav>
+            </div>
+
+            <div class="row m-0">
+                <div class="map col-12 col-lg-6 p-0 rounded-3 overflow-hidden">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d865406.2608873663!2d12.918902734986666!3d32.08295342416634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13a66917720da6bd%3A0xa24cc86d4efda77!2zbHR0INi02LHZg9ip!5e0!3m2!1sen!2sly!4v1704463672379!5m2!1sen!2sly" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+
+                    <div class="contact-methods col-12 col-lg-6 py-2">
+                        <ul class=" list-unstyled px-0 col-12">
+                            <li class="mb-2"><i class="fa-solid fa-location-dot fs-5 me-2"></i>
+                         Company Name Libya Ltt
+                            </li>
+
+                            <li  class="mb-2">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                +21891000000
+                            </li>
+
+                            <li  class="mb-2">
+                                <i class="fa-regular fa-envelope"></i>
+                                contact@companyname.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contact-form col-12 col-lg-6 py-0 px-lg-5">
+                    <h2 class="fs-1 py-0 mb-2 fw-bold ">Contact us</h2>
+                    <p>
+                        LTT has recently 'seemingly' implemented forced 
+                        restriction on YouTube videos, blocking viewers from
+                         seeing videos flagged by the community as inappropriate. 
+                         LTT is also blocking users from accessing any major proxy sites.
+                          While under the guise to protect users from 'inappropriate' content,
+                           it appears political websites and anything deemed unfavorable to
+                            whoever's agenda is at LTT are also being blocked. 
+                            These blocks are more questionable
+                         and controversial than they are useful and protective
+                    </p>
+
+                     <form class="d-flex flex-wrap row m-0 gap-3 w-100">
+                        <div class="form-group d-lg-flex p-0  flex-column flex-lg-row gap-2">
+                            <input type="text" class="form-control rounded-3 ps-3 mb-3 mb-lg-0 " placeholder="Your Name" name="name" required>
+                            <input type="email" class="form-control rounded-3 ps-3 " placeholder="Your Email Address" name="email" required>
+                        </div>
+                       
+                        <div class="form-group d-lg-flex p-0  flex-column flex-lg-row gap-2">
+                            <input type="text" class="form-control rounded-3 ps-3 mb-3 mb-lg-0 " placeholder="Company Name" name="company" required>
+                            <input type="text" class="form-control rounded-3 ps-3 mb-3 mb-lg-0 " placeholder="Company Website" name="site" required>
+                        </div>
+                        <textarea name="msg" class="w-100 rounded-3 ps-3 form-control" placeholder="Your Message ..."></textarea>
+                        <button class="btn btn-info text-white object-fit-contain ">Submit</button>
+                     </form>
+                </div>
+            </div>
+         </div>
+    </section>
+
+    <footer class="py-4">
+        <div class="container d-flex flex-wrap gap-5 align-items-center justify-content-between">
+         <form class="w-50">
+            <div class="form-group position-relative ">
+                <input type="text" placeholder="Enter Your Email To Subscribe" class="form-control rounded-pill subscribe ps-3">
+                <button class="btn btn-info position-absolute top-50 end-0 translate-middle-y rounded-pill text-white">Subscribe</button>
+            </div>
+         </form>
+         
+         <div class="social w-25 pt-3 ">
+            <ul class=" list-unstyled d-flex gap-5 justify-content-center ">
+                <li class="d-flex justify-content-center align-items-center rounded-circle "><a href="#" class="link fs-4 "><i class="fa-brands fa-facebook-f text-info"></i></a></li>
+                <li class="d-flex justify-content-center align-items-center rounded-circle "><a href="#" class="link fs-4 rounded-circle"><i class="fa-brands fa-linkedin-in text-info"></i></a></li>
+                <li class="d-flex justify-content-center align-items-center rounded-circle "><a href="#" class="link fs-4 rounded-circle"><i class="fa-brands fa-google text-info"></i></a></li>
+                
+            </ul>
+         </div>
+         <div class="text text-center text-white w-100">
+            Copyright 2024 Implemented By Eng.Nesrin Basher . All rights reserved
+         </div>
+        </div>
+    </footer>
+    
+    <!--Bootstrap Bundle File-->
+    <script src="../jsHub/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

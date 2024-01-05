@@ -1,0 +1,124 @@
+/****** General || Style ******/
+body{
+    min-height: 100vh;
+    height: auto;
+    background-image: linear-gradient(to right,rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/bg.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+::placeholder{
+    color:#fff !important;
+}
+
+.active-link{
+    background-color: #0dcaf0 !important;
+}
+/******* Nabar || Part ******/
+.navbar{
+    background-color: #013a63fe !important;
+}
+
+.navbar .navbar-brand .logo-image{
+    width: 60px;
+}
+
+.navbar .navbar-brand .text p{
+    font-size: 12px;
+}
+
+.navbar .nav-link:hover{
+    background-color: #0dcaf0;
+}
+
+/******** Content || Part *******/
+.icon{
+    left:10px !important;
+    color:#fff !important;
+}
+
+#search-input{
+    padding-left: 35px !important;
+
+    height: 45px !important;
+
+    background-color:#8d99aea4;
+}
+.content{
+   min-height: 40vh !important;
+}
+.content .item:nth-child(odd){
+    background-color:#a2d2ffb2 !important;
+    color:#013a63fe !important;
+}
+.content .item:nth-child(odd) .footer span{
+    color:#013a63fe !important;
+}
+.content .item:nth-child(even){
+    background-color:#00356698 !important;
+    color:#fff !important;
+}
+.content .item:nth-child(odd) .header{
+    background-color: #013a639c !important;
+}
+.content .item:nth-child(even) .header{
+    background-color: #013a63bf !important;
+}
+.content .item .header{
+    color:#fff !important;
+}
+
+.today .temp{
+    font-size: 70px !important;
+    font-weight: bold;
+}
+
+.item img{
+
+    width: 80px !important;
+    height: 80px !important;
+}
+
+footer{
+    background-color: #001d3d !important;
+}
+
+.subscribe::placeholder{
+    color:#bbb !important;
+}
+
+.social li{
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #013a63fe !important;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+
+.social ul li:hover {
+    background-color: #0dcaf0 !important;
+  
+}
+.social ul li:hover .link i{
+    color:#fff !important;
+}
+
+@media(max-width:992px){
+    footer .container{
+        flex-direction: column !important;
+    }
+
+    footer .container form,
+    footer .social{
+        width: 100% !important;
+    }
+}
+
+@media(max-width:767px){
+    .today .temp{
+        font-size: 50px !important;
+    }
+}
